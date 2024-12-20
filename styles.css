@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.totalcontainer {
+    background-color: lightslategrey;
+    height: 100vh;
+}
+.maincontainer {
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+}
+.container {
+    background-color: #ffff;
+    height: 40vh;
+    width: 30vw;
+
+}
+img {
+    margin: 10px;
+}
+
+.image {
+    height: 140px;
+    width: 140px;
+}
+.parent1 {
+    display: flex;
+    gap: 20px;
+   
+
+}
+.child1 {
+    flex-basis: 30%;
+
+}
+.child2 {
+    flex-basis: 70%;
+}
+.Cardheading {
+    font-size: 20px;
+}
+.description {
+   margin: 20px;
+}
+.installationtimes {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
